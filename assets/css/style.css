@@ -1,0 +1,70 @@
+
+body {
+    background-color: grey;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+    color: #7df9ff;
+    margin: 30px 0px 20px 0px
+}
+
+header {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header p {
+    text-align: center;
+    color: ivory;
+    margin: 30px 0px 40px 0px;
+}
+
+.flex-container {
+    flex-flow:row wrap;
+    display: flex;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-flow: column nowrap;
+    flex: 1 0 33%;
+    padding: 10px;
+    margin: 30px;
+    border: 5px dashed ivory;
+}
+
+.card h2 {
+    color: #7df9ff;
+    font-size: 200%;
+    text-align: center;                                                        
+    position: relative;
+    margin-top: -30px;
+    border: 3px solid ivory;
+    border-radius: 5px;
+    background-color: grey;
+    
+}
+
+.card p {
+    font-size: 105%;
+    margin: 10px 0 10px 0;
+    color: #7df9ff
+}
+
+.card pre {
+    margin: 5px 0 5px 0;
+    display: flex;
+    background: linear-gradient(
+        180deg, #7df9ff, #0478e1 
+    );
+    border-radius: 5px;
+    flex-grow: 1;
+}
