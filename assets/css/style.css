@@ -1,5 +1,11 @@
+::selection {
+    background-color: blueviolet;
+    color: #7df9ff;
+}
+
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
 }
 
@@ -53,6 +59,11 @@ header p {
     
 }
 
+.card:hover,
+.card:hover h2 {
+    box-shadow: inset 0px 0px 9px #7df9ff, 0px 0px 14px #7df9ff;
+}
+
 .card p {
     font-size: 105%;
     margin: 10px 0 10px 0;
@@ -67,4 +78,8 @@ header p {
     );
     border-radius: 5px;
     flex-grow: 1;
+}
+
+.card pre:active {
+    user-select: all;
 }
